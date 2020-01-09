@@ -10755,7 +10755,7 @@ var newMakis = [{
   nom: 'omelette ',
   prix: 1,
   description: 'Un délicieux maki au omelette ',
-  image: '/assets/images/omlette.jpg'
+  image: 'assets/images/omlette.jpg'
 }];
 var makisTotal = _data_makis__WEBPACK_IMPORTED_MODULE_1__["makis"].concat(newMakis); // le menu
 // eslint-disable-next-line consistent-return
@@ -10772,7 +10772,7 @@ function createHeader() {
   var header = "<header><h1>Makisu</h1> <h2>Makisu du jour: ".concat(makiHeader.nom, " </h2></header>");
   jquery__WEBPACK_IMPORTED_MODULE_0___default()('body').prepend(header);
   jquery__WEBPACK_IMPORTED_MODULE_0___default()('header').css({
-    'background-image': 'url("/assets/images/makisu.jpeg")',
+    'background-image': 'url("assets/images/makisu.jpeg")',
     'background-width': '100%',
     'background-height': '100%',
     'background-repeat': 'no-repeat',
